@@ -1,0 +1,6 @@
+<div> # </div>
+<div> ### TABS ### </div>
+<div> # </div>
+<div *ngFor="let tab of data" (click)="select.emit(tab)">
+  {{ tab.name }}
+</div>
